@@ -103,12 +103,12 @@ header .profile-image:hover {
   border-color: #15ff00;
 }
 
-ul.skills {
+ul.exp {
   padding: 0;
   text-align: center;
 }
 
-.skills li {
+.exp li {
   border-radius: 6px;
   display: inline-block;
   background: #3b63d3;
@@ -149,13 +149,10 @@ a.social {
   transition: all .5s;
 }
 a.github {
-  background-image: url(images/github.svg);
+  background-image: url(../images/github.svg);
 }
 a.social:hover {
   opacity: 1;
-}
-.clearfix {
-  clear: both;
 }
 
 /* Styles for larger screens */
