@@ -70,7 +70,7 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 2px solid darkgrey;
+  border: 2px solid black;
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -115,6 +115,13 @@ ul.exp {
   color: white;
   padding: 5px 10px;
   margin: 2px;
+}
+
+.coding {
+  width: 100%;
+  max-width: 650px;
+  border: solid white 2px;
+  border-radius: 10px;
 }
 
 footer {
